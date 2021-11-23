@@ -1,0 +1,125 @@
+#container{
+    display: none;
+    margin-top: 150px;
+}
+#background{
+    width: 1366px;
+    height: 768px;
+    max-width: 1366px;
+    max-height: 768px;
+    background-image: url(background.png);
+    position: relative;
+    top:30%;
+    left:14.5%;
+}
+.terminal-top{
+    position:absolute;
+    top:22%;
+    left:25%;
+    width: 750px;
+    height: 25px;
+    border-radius:5px 5px 0px 0px;
+    background: rgba(255,255,255,.9);
+    display: inline-block;
+    align-items: right;
+    text-align: center;
+    justify-content: right;
+}
+
+.terminal-box{
+    position:absolute;
+    top:25%;
+    left:25%;
+    width: 750px;
+    height: 500px;
+    border-radius:0px 0px 5px 5px;
+    background: rgba(0,0 ,0, .8);
+    overflow-y: scroll;
+}
+
+#title-term{
+    position:absolute;
+    font-size:16px;
+    font-family: 'impact';
+    top:22.3%;
+    left:50.5%;
+    color:rgba(0,0,0,.9);
+}
+
+
+.close-terminal{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background:rgba(218, 7, 7, 0.8);
+    text-align: center;
+    margin-left:725px;
+    margin-top: 4px;
+    font-size:10px;
+    font-family: "impact";
+}
+.close-terminal:hover{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+    background:rgba(218, 7, 7, 0.8);
+}
+
+#terminal-init{
+    position:absolute;
+    width: 50px;
+    height:40px;
+    top:35.7%;
+    left:0.9%;
+}
+
+#close-page{
+    position:absolute;
+    width: 15px;
+    height:15px;
+    top:1%;
+    right:1%;
+}
+
+.msg-terminal{
+    margin-top: 5px;
+    line-height: 130%;
+    display: inline-flex;
+    padding-left: 10px;
+    width: 705px;
+    height:20px;
+    margin-left: 20px;
+    color:rgba(255,255,255,.9);
+}
+
+.input{
+    padding-left: 5px;
+    width: 550px;
+    height:20px;
+    border:0;
+    outline:none;
+    margin-left: 5px;
+    font-size:14px;
+    background: none repeat scroll;
+    color:rgba(255,255,255,.9)
+    
+}
+
+.Root{
+    color:rgba(6, 245, 54, 0.7);
+}
+
+::-webkit-scrollbar {
+    border-radius: 10px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+}
